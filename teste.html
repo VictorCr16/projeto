@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+div {
+  width: 1000px;
+  height: 1000px;
+  background: red;
+  position: relative;
+  animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+   0% { background-color:blue; }
+    25%{ background-color: yellow; }
+    50% { background-color: red; }
+    75% { background-color: chartreuse; }
+    100% {background-color: blue; }
+}
+</style>
+<style> 
+    div {
+      width: 1000px;
+      height: 1000px;
+      background: red;
+      transition: width 2s;
+    }
+    
+    div:hover {
+      width: 1000px;
+    }
+    </style>
+</head>
+<body>
+
+<h1>Mudar cor</h1>
+
+<div></div>
+
+</body>
+</html>
